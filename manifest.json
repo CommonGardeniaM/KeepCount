@@ -1,0 +1,14 @@
+{
+    "name": "KeepCounter",
+    "description": "Chorme Keepに入力された文字数を数える",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+    },
+    "content_scripts": [
+        {
+          "js": ["content.js"],
+          "matches": ["https://keep.google.com/*"]
+        }
+    ]
+}
